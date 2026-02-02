@@ -16,3 +16,4 @@ Thumbs.db     # Windows specific file
 .vscode/      # Ignore VS Code configuration folder
 *.swp         # Ignore vim swap files
 *~            # Ignore backup files created by some editors
+backups/

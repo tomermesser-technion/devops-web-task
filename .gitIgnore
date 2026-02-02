@@ -1,0 +1,18 @@
+# Nginx generated/runtime files
+*.log         # Ignore all log files (access.log, error.log, etc.)
+*.pid         # Ignore the master process ID file
+
+# Configuration management related directories/files
+# These may be auto-generated or link to active configs, and
+# should typically not be committed if managed by deployment scripts
+sites-enabled/
+modules-enabled/
+*param*.pem   # Ignore specific sensitive credential files like PEM keys
+
+# OS and IDE specific files
+.DS_Store     # macOS specific file
+Thumbs.db     # Windows specific file
+.idea/        # Ignore JetBrains IDE configuration folder
+.vscode/      # Ignore VS Code configuration folder
+*.swp         # Ignore vim swap files
+*~            # Ignore backup files created by some editors

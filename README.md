@@ -63,3 +63,6 @@ Restores the previous deployment from the latest backup.
 - **HTTPS:** `curl -k https://localhost` → expect 200 and your page
 - **Health:** `curl -k https://localhost/health.html` → expect 200
 - **Ports:** `sudo ss -tlnp | grep -E '80|443'` → nginx listening on 80 and 443
+
+
+# simple commit for checking task.

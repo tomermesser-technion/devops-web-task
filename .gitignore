@@ -17,3 +17,5 @@ Thumbs.db     # Windows specific file
 *.swp         # Ignore vim swap files
 *~            # Ignore backup files created by some editors
 backups/
+nginx/devops-site.key
+nginx/devops-site.crt

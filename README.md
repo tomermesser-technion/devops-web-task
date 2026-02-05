@@ -7,4 +7,6 @@ Static website deployment with automation and self-signed SSL.
 - Linux server with NGINX installed.
 - Non-root deployment user: `webdeploy`.
 - Website root: `/var/www/devops-site` (owned by `webdeploy:webdeploy`, mode `755`).
-- NGINX listening on ports 80+443 after HTTPS is configured.
+- NGINX listening on ports 80+443.
+- Make scripts executable: chmod +x scripts/*.sh
+- 
